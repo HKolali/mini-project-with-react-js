@@ -1,0 +1,21 @@
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.item-text{
+    background-color: rgb(14, 6, 124);
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.item-text:hover{
+    cursor: pointer;
+    background-color: rgb(42, 32, 168);
+}

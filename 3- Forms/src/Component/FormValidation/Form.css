@@ -1,0 +1,77 @@
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.form-box{
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+    padding: 3rem 2rem;
+    width: 400px;
+    height: fit-content;
+    box-shadow: 0 2px 5px 2px rgb(250, 207, 127);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-registerd{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: rgb(39, 151, 39);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    width: 300px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-parent-input{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.input{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #333;
+    background-color: rgb(252, 242, 200);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    width: 300px;
+    border: none;
+}
+
+.error{
+    color: rgb(236, 46, 46);
+    margin-bottom: 1rem;
+}
+
+.submit{
+    font-size: 1rem;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    width: 300px;
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: var(--black);
+}
+
