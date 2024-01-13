@@ -1,0 +1,69 @@
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.todo__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+
+.todo__input{
+    width: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #76168a;
+    border-radius: 0.5rem;
+}
+
+.todo__input-text{
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 25rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 1px #76168a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todo__input-text:focus{
+    outline: none;
+    box-shadow: 0 1px 5px 1px #76168a;
+}
+
+.todo__input-btn-add{
+    position: absolute;
+    right: 0.5rem;
+    color: #76168a;
+    height: 2rem;
+    width: 2rem;
+}
+
+.todo__input-btn-add:hover{
+    cursor: pointer;
+}
+
+.todo__select-box{
+    margin-left: 2rem;
+}
+
+.todo__selected-box-list{
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 14rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 1px #76168a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todo__selected-box-list:focus{
+    outline: none;
+}

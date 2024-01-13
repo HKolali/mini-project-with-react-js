@@ -1,0 +1,6 @@
+.header {
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(#eee, #76168a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
